@@ -1,20 +1,8 @@
-/**
-Palette: https://scrimba.com/links/hometown-palette
-RED: #E63946
-LIGHT: #F1FAEE
-AQUA: #A8DADC
-LIGHT BLUE: #457B9D
-DARK BLUE: #1D3557
-
-*/
 body {
     margin: 0;
     text-align: center;
     background: #B0CA87;
     font-family: 'Comfortaa', cursive;
-    
-    
-    
 }
 img{
     width: 100px;
@@ -73,11 +61,13 @@ h3{
 }
 .container{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     margin-top:55px;
 }
 .bana1{
     margin:0 30px;
+    width: 300px;
 }
 .bana1 img{
     border: 2px solid rgba(231, 249, 169, 0.5);
